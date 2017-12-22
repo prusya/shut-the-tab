@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Shut The Tab",
+  "description": "Auto close tab by pattern matching url",
+  "version": "1.0",
+  "author": "Ruslan Pozin",
+
+  "browser_action": {
+    "default_icon": "jpeg.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+	"tabs",
+    "storage",
+	"background"
+  ]
+}
